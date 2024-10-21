@@ -3,7 +3,9 @@
   "name": "Pin/Unpin Tab Shortcut Ctrl/Command + Shift + P",
   "version": "1.0",
   "description": "Pin or unpin the current tab with Ctrl+Shift+P (Windows) or Command+Shift+P (macOS).",
-  "permissions": ["tabs"],
+  "permissions": [
+    "tabs"
+  ],
   "background": {
     "service_worker": "background.js"
   },
@@ -15,5 +17,8 @@
       },
       "description": "Toggle pin/unpin current tab"
     }
+  },
+  "icons": {
+    "128": "icon128.png"
   }
 }
